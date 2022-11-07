@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 04.2 | Landing Page Use Table Tag </title>
+    <!--
+		  Titu Mollick
+		  https://titumallick.com/
+    -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+      table {
+        /* border: 1px solid red; */
+        width: 1200px;
+        margin: 0 auto;
+        border-collapse: collapse;
+      }
+       td{
+        /* border: 1px solid red; */
+        width: 30px;
+        height: 80px;
+      }
+      /* Header Part */
+      .head_01,.head_06 {width: 30px;height: 30px;}
+      .logo,.head_03,.head_04,.head_05 {width: 300px;height: 30px;}
+      .logo img{height: 30px;width: 90px;}
+      .link_01 {text-decoration: none;color: #000;font-size: 14px;margin-left: 7px;}
+      .link_02 {text-decoration: none;color: #000;font-size: 14px;margin-left: 5px;}
+      .link_03 {text-decoration: none; color: #000;font-size: 14px;margin-left: 10px;}
+      .head_02 {margin-top: -30px;padding-left: 150px;}
+      .head_03 {margin-top: 15px;}
+      /* Hero Part */
+      #hero_part {background-image: url(img/home_bg.JPG);
+        width: 100%;height: 450px;
+      }
+      .hero_01,.hero_06{width: 30px;}
+      .hero_main {text-align: center;}
+      .fiture_2, .hero_02 {padding: 0 20px;}
+      .fiture_2 h2, .hero_02 h2{color: #262626;font-size: 28px;}
+      .fiture_2 button, .hero_02 button{font-size: 15px;}
+      .fiture_btn_1, .hero_btn_1 {background: #000;height: 40px;width: 140px;color: #ddd;}
+      .fiture_btn_2, .hero_btn_2 {width: 300px;border: none;background: none;color: #262626;margin-left: -50px;}
+      /* Icon Part */
+      .icon_1,.icon_6{width: 200px;}
+      
+      #icon {text-align: center;}
+      #icon p{text-align: center; font-size: 14px;}
+      .ic-1{text-align: center;}
+      /* .ic-2{text-align: left;margin-left: 20px;}
+      .ic-2 p{font-size: ;} */
+      /* Blog Part */
+
+      .post_1,.post_6, .blog_1,.blog_6{width: 30px;}
+      .post_2,.post_3,.post_4,.post_5,.blog_2,.blog_3,.blog_4,.blog_5 {width: 100%;height: 350px; padding-left: 10px;}
+      #blog button{font-size: 16px;background: none;border: none;}
+      /* Fiture Part */
+      #fiture {background-image: url(img/home_bg-02.JPG);
+        width: 100%;height: 450px;}
+      .fiture_1,.fiture_6{width: 30px;}
+      /*  */
+      #picture{background-image: url(img/home_bg-03.JPG);
+        width: 100%;height: 450px;}
+
+      /* footer */
+      #footer {width: 1300px;background: #F2F2F2; text-align: center;padding-top: 30px;}
+      .footer_1 {width: 17%;} 
+      .footer_1 h6 {font-size: 18px;margin: 0;padding: 0;}
+      .footer_1 ul li{list-style: none;padding-right: 25px;}
+      .footer_1 ul li a{text-decoration: none;color: #181818;}
+      .footer_1 ul li, .copyright p{font-size: 12px;}
+      .copy_1 p{text-align: left;}
+      .copy_2 p{text-align: right;}
+    </style>
+
+  </head>
+  <body>
+    <!-- Header Part Start ----------------------------- -->
+    <table>
+      <tr id="header_part">
+        <td class="head_01"></td>
+        <td class="logo">
+          <a href="#"><img src="img/logo.png" alt="Logo"></a>
+          <div class="head_02">
+            <a class="link_01" href="#">Microsoft 365</a>
+            <a class="link_02" href="#">Office</a>
+          </div>
+        </td>
+        <td>
+          <div class="head_03">
+            <a class="link_03" href="#">Windows</a>
+            <a class="link_03" href="#">Surface</a>
+            <a class="link_03" href="#">Xbox</a>
+            <a class="link_03" href="#">Deals</a>
+            <a class="link_03" href="#">Support</a>
+          </div>
+        </td>
+        <td class="head_04"></td>
+        <td class="head_">
+          <div class="head_05">
+            <a class="link_03" href="#">All Microsoft</a>
+            <img src="img/search.JPG" alt="icon">
+            <img src="img/cart.JPG" alt="icon">
+            <img src="img/man.JPG" alt="icon">
+          </div>
+        </td>
+        <td class="head_06"></td>
+      </tr>
+      <!-- Hero Part Start ------------------------------------------------- -->
+      <tr id="hero_part">
+        <td class="hero_01"></td>
+        <div class="hero_main">
+          <td class="hero_02" colspan="2">
+            <h2>Surface Laptop Go 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam laboriosam nulla velit sunt. Quod nesciunt quisquam, ullam quaerat non impedit!</p>
+            <button class="hero_btn_1">Shop now</button>
+            <button class="hero_btn_2">Book an appointment</button>
+          </td>
+          <!-- <td class="hero_03">2</td> -->
+          <td class="hero_04" colspan="2"></td>
+          <!-- <td class="hero_05">2</td> -->
+        </div>
+        <td class="hero_06"></td>
+      </tr>
+      <!-- Icon Part Start ----------------------------------------------- -->
+      <tr id="icon">
+        <td class="icon_1">
+          <div class="ic-1">
+           <img src="img/s-1.JPG" alt=""> <p>Chouse your <br> Microsoft 365</p>
+          </div></td>
+        <td class="icon_2">
+         <div class="ic-1">
+          <img class="" src="img/img-01.JPG" alt=""> <p>Shop Surpec <br> devices</p>
+         </div>
+        </td>
+        <td class="icon_3">
+          <div class="ic-2">
+            
+            <img class="" src="img/img-02.JPG" alt=""> <p>Buy Xbox games <br>and consols</p>
+          </div>
+        </td>
+        <td class="icon_4">
+          <img src="img/s-1.JPG" alt=""> <p>Get Windows 11</p>
+          
+        </td>
+        <td class="icon_5">
+          <img src="img/img-03.JPG" alt=""> <p>Find your next PC</p>
+        </td>
+        <td class="icon_6">
+          <div class="ic-1">
+           <img src="img/img-04.JPG" alt=""> <p>Shop Business</p>
+          </div></td>
+      </tr>
+      <!-- Blog Part Start --------------------------------------------- -->
+      <tr id="blog">
+        <td class="blog_1"></td>
+        <td class="blog_2">
+          <img src="img/p-1.JPG" alt="">
+          <h4>PC Game Pass</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, recusandae.</p>
+          <button>Join now</button>
+          <button> Compare all plans</button>
+        </td>
+        <td class="blog_3">
+          <img src="img/p-2.JPG" alt="">
+          <h4>Bundle and save on Surface</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, recusandae.</p>
+          <button>Join now</button>
+        </td>
+        <td class="blog_4">
+          <img src="img/p-3.JPG" alt="">
+          <h4>Surface Pro 8</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, recusandae.</p>
+          <button>Join now</button>
+        </td>
+        <td class="blog_5">
+          <img src="img/p-4.JPG" alt="">
+          <h4>Microsoft Inspire, July 19-20</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, recusandae.</p>
+          <button>Join now</button>
+        </td>
+        <td class="blog_6"></td>
+      </tr>
+      <!-- Fiture Part Start ----------------------------------------------- -->
+      <tr id="fiture">
+        <td class="fiture_1"></td>
+        <td class="fiture_2" colspan="2">
+          <h2>Power your dreams</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam laboriosam nulla velit sunt. Quod nesciunt quisquam, ullam quaerat non impedit!</p>
+          <button class="fiture_btn_1">Xbox Seris X</button>
+          <button class="fiture_btn_2">Xbox Seris S</button>
+        </td>
+        <!-- <td class="fiture_3">5</td> -->
+        <td class="fiture_4" colspan="2">
+
+        </td>
+        <!-- <td class="fiture_5">5</td> -->
+        <td class="fiture_6"></td>
+      </tr>
+      <!-- For business ------------------------------------------------------- -->
+      <tr>
+        <td colspan="2"><h2>For business </h2></td>
+        <!-- <td>6</td> -->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <!-- Blog Part Start 2 ------------------------------------------------------- -->
+      <tr id="blog">
+        <td class="blog_1"></td>
+        <td class="blog_2">
+          <img src="img/b-01.JPG" alt="">
+          <h4>PC Game Pass</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, recusandae.</p>
+          <button>Join now</button>
+          <button> Compare all plans</button>
+        </td>
+        <td class="blog_3">
+          <img src="img/b-02.JPG" alt="">
+          <h4>PC Game Pass</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, recusandae.</p>
+          <button>Join now</button>
+          <button> Compare all plans</button>
+        </td>
+        <td class="blog_4">
+          <img src="img/b-03.JPG" alt="">
+          <h4>PC Game Pass</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, recusandae.</p>
+          <button>Join now</button>
+          <button> Compare all plans</button>
+        </td>
+        <td class="blog_5">
+          <img src="img/b-04.JPG" alt="">
+          <h4>PC Game Pass</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, recusandae.</p>
+          <button>Join now</button>
+          <button> Compare all plans</button>
+        </td>
+        <td class="blog_6"></td>
+      </tr>
+      <!-- Fiture Part Start 2 ----------------------------------------------- -->
+      <tr id="picture">
+        <td class="fiture_1"></td>
+        <td class="fiture_2" colspan="2">
+          <h2>Power your dreams</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam laboriosam nulla velit sunt. Quod nesciunt quisquam, ullam quaerat non impedit!</p>
+          <button class="fiture_btn_1"><a href="#"> Larn more</a></button>
+        </td>
+        <!-- <td class="fiture_3"></td> -->
+        <td class="fiture_4" colspan="2">
+        </td>
+        <!-- <td class="fiture_5"></td> -->
+        <td class="fiture_6"></td>
+      </tr>
+      <!-- Follow Microsoft    --------------------------------------------------------------- -->
+      <tr id="">
+        <td colspan="2"><h2>Follow Microsoft</h2> </td>
+        <td > <img src="img/follow.JPG" alt=""></td>
+        <!-- <td >9</td> -->
+        <td ></td>
+        <td ></td>
+        <td ></td>
+      </tr>
+      <!-- Footer --------------------------------------------------------------- -->
+    </table>
+    <table id="footer">
+      <tr >
+        <td class="footer_1" footer_1>
+          <h6>What's new</h6>
+          <ul>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+          </ul>
+        </td>
+        <td class="footer_1" footer_1>
+          <h6>What's new</h6>
+          <ul>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+          </ul>
+        </td>
+        <td class="footer_1" footer_1>
+          <h6>What's new</h6>
+          <ul>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+          </ul>
+        </td>
+        <td class="footer_1" footer_1>
+          <h6>What's new</h6>
+          <ul>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+          </ul>
+        </td>
+        <td class="footer_1" footer_1>
+          <h6>What's new</h6>
+          <ul>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+          </ul>
+        </td>
+        <td class="footer_1" footer_1>
+          <h6>What's new</h6>
+          <ul>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+            <li><a href="#"> Surface Laptop Go 2</a></li>
+          </ul>
+        </td>
+      </tr>
+      <tr class="copyright">
+        <td class="copy_1" colspan="2"><p>English (United States)</p> </td>
+        <td class="copy_2" colspan="4"><p>Sitemap Contact Microsoft Privacy Terms of use Trademarks Safety & eco About our ads © Microsoft 2022. Design by TITU MOLLICK.</p> </td>
+      </tr>
+    </table>
+    <!--
+		  Titu Mollick
+		  https://titumallick.com/
+    -->
+  </body>
+</html>
